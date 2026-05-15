@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+
+<html lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ametis Laundry - Elevating the Art of Garment Care</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&amp;family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "inverse-primary": "#c9c6c2",
+                    "surface-container-highest": "#e8e2d8",
+                    "on-tertiary-container": "#637168",
+                    "surface-container": "#f3ede3",
+                    "on-primary-fixed-variant": "#474743",
+                    "on-secondary-fixed-variant": "#474747",
+                    "inverse-on-surface": "#f6f0e6",
+                    "on-surface": "#1d1b15",
+                    "on-primary-fixed": "#1c1c19",
+                    "primary": "#5f5e5b",
+                    "tertiary-fixed": "#d7e6db",
+                    "tertiary-container": "#e6f6ea",
+                    "on-primary": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "surface-container-low": "#f9f3e9",
+                    "inverse-surface": "#33302a",
+                    "background": "#fff9ee",
+                    "secondary-fixed": "#e4e2e1",
+                    "on-primary-container": "#6f6e6a",
+                    "on-secondary-fixed": "#1b1c1c",
+                    "primary-fixed-dim": "#c9c6c2",
+                    "surface-bright": "#fff9ee",
+                    "primary-container": "#f5f2ed",
+                    "on-error": "#ffffff",
+                    "error": "#ba1a1a",
+                    "on-tertiary-fixed": "#111e17",
+                    "on-secondary-container": "#656464",
+                    "error-container": "#ffdad6",
+                    "outline-variant": "#c8c7be",
+                    "surface": "#fff9ee",
+                    "surface-container-high": "#ede7dd",
+                    "primary-fixed": "#e5e2dd",
+                    "on-tertiary": "#ffffff",
+                    "surface-tint": "#5f5e5b",
+                    "outline": "#787770",
+                    "secondary-fixed-dim": "#c8c6c5",
+                    "on-tertiary-fixed-variant": "#3c4a42",
+                    "secondary-container": "#e4e2e1",
+                    "secondary": "#5f5e5e",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-dim": "#dfd9cf",
+                    "tertiary-fixed-dim": "#bbcabf",
+                    "on-background": "#1d1b15",
+                    "surface-variant": "#e8e2d8",
+                    "tertiary": "#536259",
+                    "on-surface-variant": "#474741"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "margin-desktop": "64px",
+                    "margin-mobile": "20px",
+                    "unit": "8px",
+                    "gutter": "24px",
+                    "container-max": "1280px",
+                    "section-gap": "120px"
+            },
+            "fontFamily": {
+                    "headline-md": ["EB Garamond"],
+                    "body-md": ["DM Sans"],
+                    "label-md": ["DM Sans"],
+                    "display-lg": ["EB Garamond"],
+                    "body-lg": ["DM Sans"],
+                    "button": ["DM Sans"],
+                    "headline-lg-mobile": ["EB Garamond"],
+                    "headline-lg": ["EB Garamond"]
+            },
+            "fontSize": {
+                    "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-md": ["14px", {"lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                    "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "button": ["15px", {"lineHeight": "1", "letterSpacing": "0.02em", "fontWeight": "500"}],
+                    "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "400"}],
+                    "headline-lg": ["48px", {"lineHeight": "1.2", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: #fff9ee;
+            color: #1d1b15;
+            -webkit-font-smoothing: antialiased;
+        }
+        .editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .glass-nav {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="font-body-md text-body-md">
+<!-- TopNavBar -->
+<nav class="bg-surface/90 backdrop-blur-md dark:bg-surface-dim/90 docked full-width top-0 sticky z-50 border-b border-outline-variant/30 dark:border-outline/20">
+<div class="flex justify-between items-center w-full px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md text-primary dark:text-inverse-primary tracking-tight">Ametis Laundry</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-primary dark:text-inverse-primary border-b border-primary dark:border-primary-fixed-dim pb-1 font-button" href="#">Home</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-300 font-button" href="#services">Services</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-300 font-button" href="#pricing">Pricing</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-300 font-button" href="#locations">Locations</a>
+</div>
+<a class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-button text-button hover:bg-primary/90 transition-all active:scale-95 duration-200" href="#locations">
+                Pesan Sekarang
+            </a>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative w-full h-[90vh] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Ametis Laundry Hero" class="w-full h-full object-cover grayscale-[0.2]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKOJ43QsukkImbEWPDsb-YuSDGpCUWz1IKzm-OtuP3leVV_0DIwR1xMfIIZX09XAyijwedeQDxaKOceIukvcmlGJQDJfIiYu_tWskOh7DSDgD9gso_4xlYG7-fBtesqJlOZhlKX-UpCbxG1e0i2unME3kNpSd7r9Vp5w1LO9yZnh2mt6v38k5SZF0hj5l6-0YwYvMcQ1S9e8Q_BXM0OzGOeQJQzBd0jWu3garoBWwrCf8WGwXDlk8Y3OrruLagwcTZ2ewtGLU1ftw"/>
+<div class="absolute inset-0 bg-black/10"></div>
+</div>
+<div class="relative z-10 w-full px-margin-desktop max-w-container-max mx-auto text-on-primary">
+<div class="max-w-2xl">
+<h1 class="font-display-lg text-display-lg mb-6 leading-tight">Laundry Bersih,<br/>Cepat, dan Wangi</h1>
+<p class="font-body-lg text-body-lg mb-10 opacity-90 leading-relaxed">
+                    Homie Laundry Samarinda menghadirkan standar baru perawatan pakaian dengan mengutamakan kualitas, kecepatan, dan kenyamanan pelanggan setia kami.
+                </p>
+<div class="flex gap-4">
+<a class="bg-primary text-on-primary px-10 py-4 rounded-full font-button text-button transition-all hover:bg-primary/90" href="#services">Layanan Kami</a>
+<a class="border border-white/40 backdrop-blur-sm text-white px-10 py-4 rounded-full font-button text-button hover:bg-white/10 transition-all" href="https://wa.me/6281141020169" target="_blank">Free Pickup &amp; Delivery</a>
+</div>
+</div>
+</div>
+</header>
+<!-- Stats Section -->
+<section class="py-section-gap px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+<div class="p-8 border-l border-outline-variant/30">
+<div class="font-headline-lg text-headline-lg text-primary mb-2">5K+</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest">Happy Customers</div>
+</div>
+<div class="p-8 border-l border-outline-variant/30">
+<div class="font-headline-lg text-headline-lg text-primary mb-2">24/7</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest">Service Availability</div>
+</div>
+<div class="p-8 border-l border-outline-variant/30">
+<div class="font-headline-lg text-headline-lg text-primary mb-2">99%</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest">Satisfaction Rate</div>
+</div>
+</div>
+</section>
+<!-- Categories Section -->
+<section class="py-section-gap bg-surface-container-low" id="services">
+<div class="px-margin-desktop max-w-container-max mx-auto">
+<div class="mb-20 text-center">
+<h2 class="font-headline-lg text-headline-lg mb-4">Layanan Kami</h2>
+<p class="text-on-surface-variant font-body-md max-w-xl mx-auto">Kami melayani kebutuhan laundry rumahan dan komersial dengan perhatian ekstra pada setiap serat kain.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Laundry Pakaian -->
+<div class="group">
+<div class="aspect-[3/4] overflow-hidden mb-6 relative">
+<img alt="Laundry Pakaian" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4-B6hIDO8UqWVs607eFYxEhxmCOnzvAz8C3Kn-0qwGlZj2r-kt7XmYkHwGxHJBsZJlv41aQxNR1mD-d51Rn1iht8DTNnzboBXr6Xbq-cLQvkt0_Ex3ZppOQezQ0AWps4Utmnz5cZ2iDTccM959-w9URcsIzwEYxhiM3EytsmNJCMTPtcxSWaAeTk7zCsXKODVjk3cIYnSLX5_whiyWfQSFs_luDflvsK4YTGKhY4XBj9lNQNWTA8aZllPc5h7ZB70K3QENzz4rHo"/>
+<div class="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-all duration-500"></div>
+</div>
+<h3 class="font-headline-md text-headline-md mb-2">Laundry Pakaian</h3>
+<p class="text-on-surface-variant mb-6 font-body-md">Cuci, kering, dan lipat rapi dengan deterjen ramah lingkungan. Termasuk Express, Kiloan, dan Bulanan.</p>
+<ul class="space-y-2 mb-8 font-label-md text-primary">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">check</span> Jas &amp; Gaun</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">check</span> BedCover &amp; Gorden</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">check</span> Perawatan Halus</li>
+</ul>
+<a href="https://wa.me/6281141020169" target="_blank" class="font-button text-button border-b border-outline hover:border-primary transition-all pb-1 inline-block">Chat Now</a>
+</div>
+<!-- Laundry Ambal -->
+<div class="group">
+<div class="aspect-[3/4] overflow-hidden mb-6 relative">
+<div class="w-full h-full bg-surface-container-high flex items-center justify-center">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A macro photograph of high-quality carpet fibers in a minimalist setting. Soft natural light highlights the intricate weaving and rich textures of a premium rug. The color palette is composed of warm creams and muted sages, creating an atmosphere of meticulous cleanliness and luxury care. Professional photography style with a shallow depth of field." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-B85nOZWthTRtMBHCcUfOnTnAlt5PzWJauZ1HfwTvd_WoqaSG2IgKJGKQqpcDWaVsItLrUK29boHSKS-isbuiDP6gpRu4AOBOWxnD-h1UqyulIy9ZGMJTTPb3zcEAI77KNDOAhn8jIbpxT1FXGPYizd6mimlMnqZ8o-FgJbBzt3vYwsh4C944deKZss-tkE_m0YnloO8gXc30OYsMyjYmU-QXvf0zkz6ErBWA1bkzPmI0OO2sEweAXYp-LPuklcHMcAh6EVJ_bOk"/>
+</div>
+</div>
+<h3 class="font-headline-md text-headline-md mb-2">Laundry Ambal</h3>
+<p class="text-on-surface-variant mb-6 font-body-md">Perawatan Karpet menyeluruh dengan peralatan profesional. Menghilangkan debu hingga serat terdalam.</p>
+<ul class="space-y-2 mb-8 font-label-md text-primary">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">check</span> Ambal Malaysia &amp; Turki</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">check</span> Karpet Kantor</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">check</span> Ambal Shaggy</li>
+</ul>
+<a href="https://wa.me/6281141020169" target="_blank" class="font-button text-button border-b border-outline hover:border-primary transition-all pb-1 inline-block">Chat Now</a>
+</div>
+<!-- Shoes Care -->
+<div class="group">
+<div class="aspect-[3/4] overflow-hidden mb-6 relative">
+<div class="w-full h-full bg-surface-container-high flex items-center justify-center">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A minimalist studio shot of a clean, premium sneaker resting on a neutral stone surface. The lighting is soft and directional, casting subtle shadows that emphasize the shoe's crisp materials and refined craftsmanship. The background is a warm, light beige that aligns with the premium branding. The overall mood is sophisticated and reflects the expert care given to high-end footwear." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcH6DLazSVLhv0NuGjY_jjTd8yEi1W7QKd8mJLTSrAnpb1aly4QfF3Xf8wyd4fWOVt86rNCH_XzivOxhDZYcxeqaQTsA8QgVt5Q1sS1ukGj1Jtd3YXJwrzLotzuiTgV0-XBkOtFOuaeBWImFohueWO2fjCgggNVr7QS_zJU7iElxMFOBvvziXd41gEbh0bYsqCOMraqgPEKqKkQjszXvSHtB7rbu_h2wuRHqHvMDs6MyZUyJ0pafENsrHn8pK0ajkUT5uxKjoCOU8"/>
+</div>
+</div>
+<h3 class="font-headline-md text-headline-md mb-2">Shoes Care</h3>
+<p class="text-on-surface-variant mb-6 font-body-md">Pembersihan sepatu &amp; tas secara profesional untuk berbagai jenis material eksklusif.</p>
+<ul class="space-y-2 mb-8 font-label-md text-primary">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">check</span> Deep Cleaning &amp; Deodorize</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">check</span> Repair &amp; Repaint</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">check</span> Unyellowing</li>
+</ul>
+<a href="https://wa.me/6281141020169" target="_blank" class="font-button text-button border-b border-outline hover:border-primary transition-all pb-1 inline-block">Chat Now</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Pricing Section -->
+<section class="py-section-gap px-margin-desktop max-w-container-max mx-auto" id="pricing">
+<div class="mb-20 text-center">
+<h2 class="font-headline-lg text-headline-lg mb-4">Laundry Antar Jemput</h2>
+<p class="text-on-surface-variant font-body-md">Pilih paket sesuai kebutuhan Anda. Kami jemput dan antar gratis (jarak 3 km).</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Regular -->
+<div class="p-10 bg-white border border-outline-variant/30 flex flex-col">
+<span class="font-label-md text-on-surface-variant uppercase tracking-widest mb-4">Regular</span>
+<h4 class="font-headline-md text-headline-md mb-8">Pilihan Harian</h4>
+<ul class="space-y-4 mb-12 flex-grow">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-tertiary">check_circle</span> Paket 1 Hari</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-tertiary">check_circle</span> Paket 2 Hari</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-tertiary">check_circle</span> Paket 3 Hari</li>
+</ul>
+<a href="https://wa.me/6281141020169" target="_blank" class="w-full border border-primary py-4 font-button text-button text-primary hover:bg-primary hover:text-white transition-all block text-center">Chat Kami</a>
+</div>
+<!-- Express -->
+<div class="p-10 bg-primary text-on-primary flex flex-col relative">
+<div class="absolute top-0 right-0 bg-tertiary text-on-tertiary px-4 py-1 font-label-md text-[10px] uppercase tracking-widest">Popular</div>
+<span class="font-label-md opacity-70 uppercase tracking-widest mb-4">Express</span>
+<h4 class="font-headline-md text-headline-md mb-8 text-white">Untuk Anda yang sibuk</h4>
+<ul class="space-y-4 mb-12 flex-grow">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-tertiary-fixed">check_circle</span> Paket 2, 3, &amp; 5 jam</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-tertiary-fixed">check_circle</span> Sameday Service</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-tertiary-fixed">check_circle</span> Paket 24 Jam</li>
+</ul>
+<a href="https://wa.me/6281141020169" target="_blank" class="w-full bg-white text-primary py-4 font-button text-button hover:bg-surface-container transition-all block text-center">Chat Kami</a>
+</div>
+<!-- Bulanan -->
+<div class="p-10 bg-white border border-outline-variant/30 flex flex-col">
+<span class="font-label-md text-on-surface-variant uppercase tracking-widest mb-4">Bulanan</span>
+<h4 class="font-headline-md text-headline-md mb-8">Langganan Terjadwal</h4>
+<ul class="space-y-4 mb-12 flex-grow">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-tertiary">check_circle</span> Diskon hingga 10%</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-tertiary">check_circle</span> Quota tidak akan hangus</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-tertiary">check_circle</span> Penjemputan rutin</li>
+</ul>
+<a href="https://wa.me/6281141020169" target="_blank" class="w-full border border-primary py-4 font-button text-button text-primary hover:bg-primary hover:text-white transition-all block text-center">Chat Kami</a>
+</div>
+</div>
+</section>
+<!-- How It Works -->
+<section class="py-section-gap bg-surface-container">
+<div class="px-margin-desktop max-w-container-max mx-auto text-center">
+<h2 class="font-headline-lg text-headline-lg mb-16">Cara Kerja Kami</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
+<div class="hidden md:block absolute top-1/2 left-0 w-full h-[1px] bg-outline-variant/30 -z-10"></div>
+<div class="flex flex-col items-center">
+<div class="w-16 h-16 rounded-full bg-white border border-outline-variant flex items-center justify-center font-headline-md mb-8 relative z-10">1</div>
+<h5 class="font-headline-md text-headline-md mb-4 text-[24px]">Jadwalkan Pickup</h5>
+<p class="text-on-surface-variant font-body-md max-w-[240px]">Pilih waktu jemput melalui WhatsApp atau telepon.</p>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-16 h-16 rounded-full bg-white border border-outline-variant flex items-center justify-center font-headline-md mb-8 relative z-10">2</div>
+<h5 class="font-headline-md text-headline-md mb-4 text-[24px]">Kami Cuci</h5>
+<p class="text-on-surface-variant font-body-md max-w-[240px]">Tim kami mencuci dan merawat pakaian dengan teliti.</p>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-16 h-16 rounded-full bg-white border border-outline-variant flex items-center justify-center font-headline-md mb-8 relative z-10">3</div>
+<h5 class="font-headline-md text-headline-md mb-4 text-[24px]">Pengantaran Segera</h5>
+<p class="text-on-surface-variant font-body-md max-w-[240px]">Kami antar pakaian Anda rapi dan wangi ke tempat Anda.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonial Section -->
+<section class="py-section-gap px-margin-desktop max-w-container-max mx-auto overflow-hidden">
+<div class="flex flex-col md:flex-row gap-20 items-center">
+<div class="w-full md:w-1/2">
+<div class="font-label-md text-primary uppercase tracking-[0.2em] mb-6">Testimonials</div>
+<div class="flex gap-1 mb-8">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<blockquote class="font-headline-md text-headline-md italic mb-10 leading-relaxed">
+                    "Alhamdulillah puas sekali dengan pelayanan homie laundry samarinda, selesai sesuai estimasi waktu, sampai malam juga tetap di selesaikan dan di antar, hasil cucian juga rapi, bersih dan wangi."
+                </blockquote>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-surface-container-highest rounded-full flex items-center justify-center font-bold">R</div>
+<div>
+<p class="font-button text-button">Ripakati</p>
+<p class="text-on-surface-variant font-label-md">Verified Google Review</p>
+</div>
+</div>
+</div>
+<div class="w-full md:w-1/2">
+<div class="relative">
+<img class="w-full h-[500px] object-cover" data-alt="An ethereal, minimalist laundry drying room with soft linens hanging gracefully. Large floor-to-ceiling windows allow abundant natural light to fill the space, creating soft, long shadows. The color palette is a serene mix of off-whites, creams, and pale woods, evoking a sense of pure cleanliness and high-end boutique living. The overall aesthetic is editorial and tranquil." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2leA6fHkxmitwy_YKm920rV_pdz5_f-MHhTWN76vcY4s39NyxRb4DZQ6uHVcgztqWPoLVaG64yHV1I_mhscWQ7YaFb9c7pL7u0vBg5yKGfO8DX8MKvVkpQ8cUFAeX8XrQ-eFQsCx5XbMjrdn51CJn59dR8ibHq1M7wB9I2RAEM4VIgkeEPnniqrHu2Yo5UIVqUAwjkWrDMSo9HQwecz21iGtaiVyMLFrTY69zzpWf-r2q5d4y558hbmOXDfs8KBJsH53zXU9j5x4"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Location & Contact -->
+<section class="py-section-gap bg-surface-container-low px-margin-desktop" id="locations">
+<div class="max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-20">
+<div>
+<h2 class="font-headline-lg text-headline-lg mb-12">Kontak &amp; Lokasi</h2>
+<div class="space-y-12">
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<div>
+<p class="font-headline-md text-[24px] mb-2">Cabang Samarinda Kota</p>
+<p class="text-on-surface-variant mb-4">Jl. KH M Khalid No. 38 A, Pasar Pagi</p>
+<p class="font-label-md text-primary">WhatsApp: 0811-4102-0169</p>
+</div>
+</div>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<div>
+<p class="font-headline-md text-[24px] mb-2">Cabang Aminah Syukur</p>
+<p class="text-on-surface-variant mb-4">Jl. Aminah Syukur No. 13, Samarinda Kota</p>
+<p class="font-label-md text-primary">WhatsApp: 0812-2847-0169</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white p-12 shadow-sm">
+<h3 class="font-headline-md text-headline-md mb-8">Pesan Layanan</h3>
+<form class="space-y-6" id="waForm">
+<div>
+<label class="font-label-md text-on-surface-variant block mb-2">NAMA</label>
+<input id="waName" class="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary transition-all px-0 py-3" placeholder="Nama Anda" type="text" required/>
+</div>
+<div>
+<label class="font-label-md text-on-surface-variant block mb-2">ALAMAT</label>
+<input id="waAddress" class="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary transition-all px-0 py-3" placeholder="Alamat Penjemputan" type="text" required/>
+</div>
+<div>
+<label class="font-label-md text-on-surface-variant block mb-2">LAYANAN</label>
+<select id="waService" class="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary transition-all px-0 py-3 appearance-none">
+<option value="Regular Service">Regular Service</option>
+<option value="Express Service">Express Service</option>
+<option value="Shoes Care">Shoes Care</option>
+<option value="Laundry Karpet">Laundry Karpet</option>
+</select>
+</div>
+<button type="submit" class="w-full bg-primary text-on-primary py-5 font-button text-button mt-8 hover:bg-primary/90 transition-all">Pesan via WhatsApp</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-surface-container-low dark:bg-surface-container-lowest border-t border-outline-variant/20 dark:border-outline/10">
+<div class="w-full px-margin-desktop py-section-gap flex flex-col items-center text-center max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md text-primary dark:text-inverse-primary mb-8">Ametis Laundry</div>
+<div class="flex flex-wrap justify-center gap-8 mb-12">
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors hover:underline decoration-outline-variant font-label-md" href="#">Sustainability</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors hover:underline decoration-outline-variant font-label-md" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors hover:underline decoration-outline-variant font-label-md" href="#">Terms of Service</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors hover:underline decoration-outline-variant font-label-md" href="#">Affiliates</a>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant opacity-70">
+                © 2024 Ametis Laundry Atelier. All rights reserved. Elevating the art of garment care.
+            </p>
+</div>
+</footer>
+<script>
+    document.getElementById('waForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const name = document.getElementById('waName').value;
+        const address = document.getElementById('waAddress').value;
+        const service = document.getElementById('waService').value;
+        
+        const message = `Halo Ametis Laundry, saya ingin pesan layanan:\n\nNama: ${name}\nAlamat: ${address}\nLayanan: ${service}\n\nMohon info selanjutnya. Terima kasih.`;
+        const encodedMessage = encodeURIComponent(message);
+        const waNumber = '6281141020169'; // Cabang Samarinda Kota
+        
+        window.open(`https://wa.me/${waNumber}?text=${encodedMessage}`, '_blank');
+    });
+</script>
+</body></html>
